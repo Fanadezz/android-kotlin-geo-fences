@@ -124,8 +124,8 @@ class HuntMainActivity : AppCompatActivity() {
 
         // request for permissions
         backgroundForegroundPermissionLauncher.launch(
-                arrayOf(Manifest.permission.ACCESS_FINE_LOCATION,
-                        Manifest.permission.ACCESS_BACKGROUND_LOCATION))
+                arrayOf(
+                        Manifest.permission.ACCESS_BACKGROUND_LOCATION,Manifest.permission.ACCESS_FINE_LOCATION))
         //instantiate the geofencing client - the main entry point for interacting with
         // geofencing API
 
